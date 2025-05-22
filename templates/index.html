@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <title>پایش فشار خون</title>
+  <script src="/static/script.js" defer></script>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <h1>پایش فشار خون با هوش مصنوعی</h1>
+  <label>سیستولیک: <input id="sys" type="number" /></label><br/>
+  <label>دیاستولیک: <input id="dia" type="number" /></label><br/>
+  <label>نبض: <input id="pulse" type="number" /></label><br/>
+  <button onclick="sendData()">ارسال</button>
+  <p id="result"></p>
+</body>
+</html>
