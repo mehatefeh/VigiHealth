@@ -1,0 +1,37 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background-color: #0b3d91; /* آبی نیلی */
+  color: #ffffff;
+  padding: 30px;
+  text-align: center;
+}
+
+input[type=number] {
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #1a237e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3949ab;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
